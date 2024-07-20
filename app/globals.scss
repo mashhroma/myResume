@@ -113,7 +113,7 @@ $titleColor: #fc7d96;
 	color: $titleColor;
 	border-bottom: 1px solid $titleColor;
 	padding-bottom: 5px;
-	margin: 20px 0 10px;
+	margin: 15px 0 10px;
 	font-weight: 500;
 }
 
@@ -161,9 +161,20 @@ $titleColor: #fc7d96;
 	}
 
 	a {
-		text-decoration: none;
+		text-decoration: underline;
 		font-weight: 500;
 		color: $backColor;
+		transition: 0.3s;
+
+		&:hover {
+			color: $titleColor;
+		}
+	}
+}
+
+.otherInfo {
+	li {
+		list-style-type: none;
 	}
 }
 

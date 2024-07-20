@@ -7,6 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import { SiHabr } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
 import { SlSocialVkontakte } from "react-icons/sl";
+import { FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Home() {
 	return (
@@ -21,6 +22,10 @@ export default function Home() {
 						<h2 className="titleJob">Frontend-разработчик</h2>
 						<ul className="contacts">
 							<li>
+								<FaMapMarkerAlt />
+								<span>г. Санкт-Петербург</span>
+							</li>
+							<li>
 								<MdEmail />
 								<a href="mailto:mashh@mail.ru" target="_blank">
 									mashh@mail.ru
@@ -29,7 +34,6 @@ export default function Home() {
 							<li>
 								<BiSolidPhone />
 								<FaWhatsapp />
-
 								<a href="tel:+79055187737 ">+7 (905) 518-77-37</a>
 							</li>
 							<li>
@@ -99,19 +103,8 @@ export default function Home() {
 								<li>Figma</li>
 							</ul>
 						</div>
-						<div className="softSkills">
-							<h3 className="subtitle">Гибкие навыки</h3>
-							<li>Умею слушать</li>
-							<li>Хорошо работаю в команде</li>
-							<li>Нацелена на результат</li>
-							<li>Умею управлять эмоциями</li>
-							<li>Занимаюсь своим развитием</li>
-							<li>Имею логическое мышление</li>
-							<li>Умею искать информацию</li>
-							<li>Умею брать на себя ответственность</li>
-						</div>
 						<div className="projects">
-							<h3 className="subtitle">Проекты</h3>
+							<h3 className="subtitle">Мои проекты</h3>
 							<ul>
 								<li>
 									<a
@@ -138,6 +131,22 @@ export default function Home() {
 									</a>
 								</li>
 							</ul>
+						</div>
+						<div className="softSkills">
+							<h3 className="subtitle">Гибкие навыки</h3>
+							<li>Умею слушать</li>
+							<li>Хорошо работаю в команде</li>
+							<li>Нацелена на результат</li>
+							<li>Умею управлять эмоциями</li>
+							<li>Занимаюсь своим развитием</li>
+							<li>Имею логическое мышление</li>
+							<li>Умею искать информацию</li>
+							<li>Умею брать на себя ответственность</li>
+						</div>
+						<div className="otherInfo">
+							<h3 className="subtitle">Прочая информация</h3>
+							<li>Дата рождения: 11.05.1985 г.</li>
+							<li>Семейное положение: замужем</li>
 						</div>
 					</div>
 					<div className="right">
