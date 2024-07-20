@@ -1,0 +1,268 @@
+$backColor: #585b5d;
+$titleColor: #fc7d96;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.layout {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.container {
+	margin: 10px;
+	border-left: 1px solid $backColor;
+	box-shadow: 1px 0px 10px 3px $backColor;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	max-width: 1000px;
+}
+
+.header {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	background-color: $backColor;
+	color: #fff;
+	gap: 30px;
+}
+
+.myPhoto {
+	height: 160px;
+	border-radius: 50%;
+	padding: 2px;
+	background-color: #fff;
+
+	img {
+		border-radius: 50%;
+	}
+}
+
+.headingInfo {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.titleName {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.titleJob {
+	font-size: 25px;
+	font-style: italic;
+	font-weight: 200;
+	color: $titleColor;
+}
+
+.contacts {
+	height: 80px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	gap: 5px;
+	margin-top: 10px;
+	list-style-type: none;
+	font-size: 12px;
+
+	li {
+		display: flex;
+		align-items: center;
+		gap: 5px;
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+}
+
+.content {
+	display: flex;
+	gap: 20px;
+	font-size: 14px;
+
+	ul {
+		list-style-type: none;
+	}
+
+	li {
+		list-style-position: inside;
+	}
+
+	b {
+		font-weight: 500;
+	}
+}
+
+.subtitle {
+	color: $titleColor;
+	border-bottom: 1px solid $titleColor;
+	padding-bottom: 5px;
+	margin: 20px 0 10px;
+	font-weight: 500;
+}
+
+.left {
+	width: 30%;
+	background: lighten($color: $backColor, $amount: 60);
+	padding: 0px 20px 20px;
+}
+
+.right {
+	width: 70%;
+	padding: 0px 20px 20px 0px;
+}
+
+.hardSkills {
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 5px;
+	}
+	li {
+		list-style-type: none;
+		font-weight: 600;
+		border: 1px solid $backColor;
+		box-shadow: 2px 2px 5px $backColor;
+		color: $backColor;
+		background-color: #fff;
+		border-radius: 5px;
+		padding: 5px;
+	}
+}
+
+.softSkills {
+	li::marker {
+		color: $titleColor;
+	}
+}
+
+.projects {
+	ul {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		list-style-type: none;
+	}
+
+	a {
+		text-decoration: none;
+		font-weight: 500;
+		color: $backColor;
+	}
+}
+
+.myWay {
+	display: flex;
+	justify-content: space-between;
+}
+
+.experience {
+	width: 48%;
+}
+
+.duties {
+	li {
+		list-style-type: circle;
+	}
+}
+
+.education {
+	width: 48%;
+}
+
+.timeline,
+.faculty {
+	padding: 5px;
+	margin-bottom: 5px;
+	background: lighten($color: $backColor, $amount: 45);
+	color: #fff;
+}
+
+.experienceItem,
+.educationItem {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.italic {
+	font-style: italic;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.hobbiesIcons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.a {
+	fill: none;
+	stroke: #fc7d96;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+.cls-1 {
+	fill: none;
+	stroke: #fc7d96;
+	stroke-miterlimit: 10;
+	stroke-width: 0.36;
+}
+
+@media (max-width: 768px) {
+	.contacts {
+		height: auto;
+	}
+
+	.myWay {
+		flex-direction: column;
+	}
+
+	.education,
+	.experience {
+		width: 100%;
+	}
+}
+
+@media (max-width: 568px) {
+	.header {
+		flex-direction: column;
+	}
+
+	.titleName {
+		text-align: center;
+	}
+
+	.headingInfo {
+		align-items: center;
+	}
+
+	.content {
+		flex-direction: column;
+		gap: 0;
+	}
+
+	.left,
+	.right {
+		width: auto;
+		padding: 20px;
+	}
+}
