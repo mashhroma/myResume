@@ -97,6 +97,7 @@ export default function Home() {
 								<li>Next JS</li>
 								<li>HTML</li>
 								<li>CSS</li>
+								<li>SASS</li>
 								<li>Git</li>
 								<li>Node.js</li>
 								<li>REST</li>
