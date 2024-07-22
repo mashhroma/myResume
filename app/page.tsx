@@ -18,7 +18,7 @@ export default function Home() {
 						<Image src="/me.jpg" alt="My photo" width={160} height={160} />
 					</div>
 					<div className="headingInfo">
-						<h1 className="titleName">Савкина Мария Александровна</h1>
+						<h1 className="titleName">Савкина Мария</h1>
 						<h2 className="titleJob">Frontend-разработчик</h2>
 						<ul className="contacts">
 							<li>
@@ -154,11 +154,19 @@ export default function Home() {
 						<div className="aboutMe">
 							<h3 className="subtitle">Обо мне</h3>
 							<div>
-								Я долго работала в продажах, поэтому у меня отличные навыки
-								общения с коллегами, клиентами, руководителями. Повышенное
-								чувство ответственности. Легко и с удовольствием учусь и узнаю
-								новое. Готова много работать, особенно над интересными
-								проектами!
+								Привет! Я - начинающий frontend разработчик. Ранее я работала в
+								сфере оптовых продаж, где с удовольствием общалась с
+								покупателями и решала задачи бизнеса, связанные со сбытом. Еще в
+								школе я очень любила делать сайты. Верстка долгое время
+								оставалась моим хобби, но я в итоге поняла, что мне хочется
+								развиваться в web-программировании, поэтому я приняла решение
+								сменить сферу деятельности. Я начала учиться на факультете
+								Разработчик в GeekBrains, где получила практический опыт не
+								только по специальности React-программист, но также опыт работы
+								с SQL, Java, Python, Git, Docker а также изучила теоретические
+								основы ООП, алгоритмов, архитектуры ПО и баз данных. Сейчас
+								участвую в стартапе по разработке навигационного приложения в
+								качестве программиста на Next JS.
 							</div>
 						</div>
 
@@ -168,33 +176,50 @@ export default function Home() {
 								<ul className="experienceItem">
 									<li>
 										<div className="timeline">
+											Ноябрь 2023 — по настоящее время
+										</div>
+										<b>Web-программист</b>
+										<div className="italic">Проектная деятельность</div>
+										Должностные обязанности:
+										<ul className="duties">
+											<li>Разработала проект web-приложения на React.</li>
+											<li>Решала прочие учебные задачи.</li>
+										</ul>
+									</li>
+									<li>
+										<div className="timeline">
 											Октябрь 2022 — по настоящее время
 										</div>
-										<b>Асессор</b>
+										<b>Специалист отдела качества поиска</b>
 										<div className="italic">
 											&#34;Яндекс Крауд&#34;, Москва, поисковая система
 										</div>
 										Должностные обязанности:
 										<ul className="duties">
-											<li>Контроль качества поиска</li>
-											<li>Разметка поисковой выдачи</li>
+											<li>Выполняю задачи для повышения качества поиска.</li>
+											<li>
+												Выполняю задачи, связанные с разметкой поисковой выдачи.
+											</li>
 										</ul>
 									</li>
 									<li>
-										<div className="timeline"> Август 2019 — ноябрь 2022 </div>
-										<b>Начальник отдела продаж</b>
+										<div className="timeline">Сентябрь 2019 — ноябрь 2022</div>
+										<b>Руководитель направления оптовых продаж</b>
 										<div className="italic">
-											&#34;ТЕКСТИЛЬТОРГ&#34;, Москва, оптовая торговля
-											текстильных изделий
+											&#34;Итума&#34;, Москва, оптовая торговля текстильных
+											изделий
 										</div>
 										Должностные обязанности:
 										<ul className="duties">
-											<li>Налаживание бизнес-процессов</li>
-											<li>Анализ показателей продаж</li>
-											<li>Контроль оплат</li>
-											<li>Контроль отгрузок и выполнения заказов</li>
-											<li>Контроль выполнения плана продаж</li>
-											<li>Подготовка и оформление договоров</li>
+											<li>
+												Подключила компанию к системе учета "Честный знак".
+											</li>
+											<li>Налаживала контакт с покупателями.</li>
+											<li>Анализировала показатели продаж.</li>
+											<li>
+												Контролировала сроки и качество выполнения отгрузок и
+												заказов.
+											</li>
 										</ul>
 									</li>
 								</ul>
@@ -205,7 +230,7 @@ export default function Home() {
 									<li>
 										<div className="faculty">Frontend-программист (React)</div>
 										<b>Профессиональная переподготовка </b>
-										<div className="italic">ГикБреинс</div>
+										<div className="italic">GeekBrains</div>
 										годы обучения: 2022-2024 г.
 									</li>
 									<li>
@@ -241,15 +266,15 @@ export default function Home() {
 									xmlns="http://www.w3.org/2000/svg"
 									fill="#fc7d96"
 									stroke="#fc7d96"
-									stroke-width="0.3"
+									strokeWidth="0.3"
 								>
-									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+									<g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
 									<g
 										id="SVGRepo_tracerCarrier"
-										stroke-linecap="round"
-										stroke-linejoin="round"
+										strokeLinecap="round"
+										strokeLinejoin="round"
 										stroke="#CCCCCC"
-										stroke-width="0.192"
+										strokeWidth="0.192"
 									></g>
 									<g id="SVGRepo_iconCarrier">
 										<polygon
@@ -276,11 +301,11 @@ export default function Home() {
 									fill="#fc7d96"
 									stroke="#fc7d96"
 								>
-									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+									<g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
 									<g
 										id="SVGRepo_tracerCarrier"
-										stroke-linecap="round"
-										stroke-linejoin="round"
+										strokeLinecap="round"
+										strokeLinejoin="round"
 									></g>
 									<g id="SVGRepo_iconCarrier">
 										<line
@@ -355,39 +380,39 @@ export default function Home() {
 									xmlns="http://www.w3.org/2000/svg"
 									stroke="#fc7d96"
 								>
-									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+									<g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
 									<g
 										id="SVGRepo_tracerCarrier"
-										stroke-linecap="round"
-										stroke-linejoin="round"
+										strokeLinecap="round"
+										strokeLinejoin="round"
 									></g>
 									<g id="SVGRepo_iconCarrier">
 										{" "}
 										<path
 											d="M7 21L17 21"
 											stroke="#fc7d96"
-											stroke-width="0.384"
-											stroke-linecap="round"
-											stroke-linejoin="round"
+											strokeWidth="0.384"
+											strokeLinecap="round"
+											strokeLinejoin="round"
 										></path>{" "}
 										<path
 											d="M13.5 7L13.5 11M13.5 13L13.5 11M13.5 11L14.8706 9.43363M17 7L14.8706 9.43363M14.8706 9.43363L17 13"
 											stroke="#fc7d96"
-											stroke-width="0.384"
-											stroke-linecap="round"
-											stroke-linejoin="round"
+											strokeWidth="0.384"
+											strokeLinecap="round"
+											strokeLinejoin="round"
 										></path>{" "}
 										<path
 											d="M9.5 7L6.5 11.5L10 11.5L10 13"
 											stroke="#fc7d96"
-											stroke-width="0.384"
-											stroke-linecap="round"
-											stroke-linejoin="round"
+											strokeWidth="0.384"
+											strokeLinecap="round"
+											strokeLinejoin="round"
 										></path>{" "}
 										<path
 											d="M2 16.4V3.6C2 3.26863 2.26863 3 2.6 3H21.4C21.7314 3 22 3.26863 22 3.6V16.4C22 16.7314 21.7314 17 21.4 17H2.6C2.26863 17 2 16.7314 2 16.4Z"
 											stroke="#fc7d96"
-											stroke-width="0.384"
+											strokeWidth="0.384"
 										></path>{" "}
 									</g>
 								</svg>
@@ -398,13 +423,13 @@ export default function Home() {
 									xmlns="http://www.w3.org/2000/svg"
 									fill="#fc7d96"
 									stroke="#fc7d96"
-									stroke-width="0.576"
+									strokeWidth="0.576"
 								>
-									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+									<g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
 									<g
 										id="SVGRepo_tracerCarrier"
-										stroke-linecap="round"
-										stroke-linejoin="round"
+										strokeLinecap="round"
+										strokeLinejoin="round"
 									></g>
 									<g id="SVGRepo_iconCarrier">
 										<path

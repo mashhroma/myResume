@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.scss";
 
 export const metadata: Metadata = {
-	title: "Савкина Мария Александровна - frontend-разработчик",
+	title: "Савкина Мария - frontend-разработчик",
 	description: "Это мое резюме :)",
 };
 
