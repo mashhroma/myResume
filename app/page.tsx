@@ -117,7 +117,7 @@ export default function Home() {
 								</li>
 								<li>
 									<a
-										href="https://github.com/mashhroma/JSLearn/tree/main/homework/reactJS/hw8"
+										href="https://github.com/mashhroma/exampleShop"
 										target="_blank"
 									>
 										Проект интернет-магазина
