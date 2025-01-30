@@ -531,15 +531,6 @@ export default function Home() {
 					width={600}
 					height={600}
 				/>
-
-				<Image
-					src={
-						"https://avatars.mds.yandex.net/i?id=d0e802271d0b09ddf8502fe5ba1cc956_l-4756639-images-thumbs&n=13"
-					}
-					alt="Test"
-					width={600}
-					height={600}
-				/>
 			</div>
 		</div>
 	);
