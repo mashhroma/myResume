@@ -295,7 +295,7 @@ export default function Home() {
 
 						<div className="myWay">
 							<div className="experience">
-								<h3 className="subtitle">Опыт работы</h3>
+								<h3 className="subtitle">Профильный опыт работы</h3>
 								<ul className="experienceItem">
 									{experience.map((place) => (
 										<li key={place.company}>
